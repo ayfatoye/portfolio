@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2e8ea; /* light pink */
+            color: #0057a3; /* dark blue */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0057a3; /* dark blue */
+            color: #f2e8ea; /* light pink */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background-color: #0057a3; /* dark blue */
+        }
+
+        nav a {
+            color: #f2e8ea; /* light pink */
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: #f2e8ea;
+            color: #0057a3;
+            border-radius: 5px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #0057a3;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px 0;
+        }
+
+        a {
+            color: #0057a3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .resource-section {
+            margin: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="service.html">Service</a>
+        <a href="qualifications.html">Acumen</a>
+        <a href="ai.html">GAY-I</a>
+    </nav>
+
+    <header>
+        <h1>Resource Hub</h1>
+    </header>
+
+    <!-- LGBTQ+ Resources -->
+    <div class="resource-section">
+        <h2>Links to LGBTQ+ Resources for Youth</h2>
+        <ul>
+            <li><a href="https://www.glaad.org/">GLAAD</a></li>
+            <li><a href="https://www.thetrevorproject.org/">The Trevor Project</a></li>
+            <li><a href="https://www.lgbtcenters.org/">LGBT Centers</a></li>
+            <li><a href="https://pflag.org/">PFLAG</a></li>
+        </ul>
+    </div>
+
+    <!-- Mental Health Resources -->
+    <div class="resource-section">
+        <h2>Links to Mental Health Resources</h2>
+        <ul>
+            <li><a href="https://www.nami.org/">NAMI</a></li>
+            <li><a href="https://www.mentalhealth.gov/">MentalHealth.gov</a></li>
+            <li><a href="https://www.samhsa.gov/">SAMHSA</a></li>
+        </ul>
+    </div>
+
+    <!-- Tips to Avoid Burnout -->
+    <div class="resource-section">
+        <h2>Tips to Avoid Burnout</h2>
+        <ul>
+            <li>Take regular breaks during work.</li>
+            <li>Ensure you're sleeping adequately.</li>
+            <li>Engage in hobbies and activities you love.</li>
+        </ul>
+    </div>
+
+    <!-- Prompt Textbox -->
+    <div class="resource-section">
+        <h2>Your Prompt</h2>
+        <textarea readonly>
+        make a website that:
+        - highlights 3-5 resources for children/teenagers in the LGBTQ+ community
+        - highlights 3-5 mental health resources
+        - highlights 3-5 tips to avoid burnout
+        - for each resource highlighted, actually make the links go to appropriate pages
+        - make the color theme for the css pink and blue, have all css be in this html page you're making
+        - has a text box containing this prompt you're using to make the page.
+        </textarea>
+    </div>
+
+</body>
+
+</html>
