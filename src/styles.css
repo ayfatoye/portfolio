@@ -32,9 +32,9 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 600px;
+    width: 400px;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 
